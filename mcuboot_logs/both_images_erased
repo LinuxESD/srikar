@@ -1,0 +1,1398 @@
+te protection[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 0[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32: flash_stm32_erase: rc value is 0[0m
+[00:01:55.442,000] [0m<inf> flash_stm32: In if condition[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32f4x: flush_cache: ACR value is 702[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 62[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 74[0m
+[00:01:55.442,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 83[0m
+[00:02:34.160,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:34.160,000] [0m<inf> flash_stm32: Line 212[0m
+[00:02:34.160,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.160,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.160,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:02:34.160,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:02:34.160,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:02:34.161,000] [0m<inf> flash_stm32: succesfully of if condition 215 rc is 0[0m
+[00:02:34.161,000] [0m<inf> flash_stm32: rc and rc2 value is 0 and 0[0m
+[00:02:34.161,000] [0m<inf> mcuboot: Image 0 copying the secondary slot to the primary slot: 0x4ee8 bytes[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 1024[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 131072, len: 1024[0m
+[00:02:34.161,000] [0m<inf> flash_stm32: Line 243[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000000[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000000[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:02:34.161,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 0[0m
+[00:02:34.190,000] [0m<inf> flash_stm32: Line 248[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 263168, len: 1024[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 132096, len: 1024[0m
+[00:02:34.190,000] [0m<inf> flash_stm32: Line 243[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:02:34.190,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:03:42.516,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:03:42.516,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:03:42.516,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:03:42.545,000] [0m<inf> flash_stm32: Line 248[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 264192, len: 1024[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 133120, len: 1024[0m
+[00:03:42.545,000] [0m<inf> flash_stm32: Line 243[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:03:42.545,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:03:42.546,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:04:18.763,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:04:18.792,000] [0m<inf> flash_stm32: Line 248[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 265216, len: 1024[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 134144, len: 1024[0m
+[00:04:18.792,000] [0m<inf> flash_stm32: Line 243[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:04:18.792,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:04:18.793,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:04:53.119,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:04:53.147,000] [0m<inf> flash_stm32: Line 248[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 266240, len: 1024[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 135168, len: 1024[0m
+[00:04:53.147,000] [0m<inf> flash_stm32: Line 243[0m
+[00:04:53.147,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:04:53.148,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:05:27.475,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:05:27.503,000] [0m<inf> flash_stm32: Line 248[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 267264, len: 1024[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 136192, len: 1024[0m
+[00:05:27.503,000] [0m<inf> flash_stm32: Line 243[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:05:27.503,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:06:01.831,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:06:01.858,000] [0m<inf> flash_stm32: Line 248[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 268288, len: 1024[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 137216, len: 1024[0m
+[00:06:01.858,000] [0m<inf> flash_stm32: Line 243[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:06:01.858,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:06:36.186,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:06:36.213,000] [0m<inf> flash_stm32: Line 248[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 269312, len: 1024[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 138240, len: 1024[0m
+[00:06:36.213,000] [0m<inf> flash_stm32: Line 243[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:06:36.213,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:06:36.214,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:07:10.542,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:07:10.568,000] [0m<inf> flash_stm32: Line 248[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:07:10.568,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 270336, len: 1024[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 139264, len: 1024[0m
+[00:07:10.569,000] [0m<inf> flash_stm32: Line 243[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:07:10.569,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:07:44.898,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:07:44.923,000] [0m<inf> flash_stm32: Line 248[0m
+[00:07:44.923,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 271360, len: 1024[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 140288, len: 1024[0m
+[00:07:44.924,000] [0m<inf> flash_stm32: Line 243[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:07:44.924,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:08:19.254,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:08:19.279,000] [0m<inf> flash_stm32: Line 248[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 272384, len: 1024[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 141312, len: 1024[0m
+[00:08:19.279,000] [0m<inf> flash_stm32: Line 243[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:08:19.279,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:08:53.609,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:08:53.634,000] [0m<inf> flash_stm32: Line 248[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 273408, len: 1024[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 142336, len: 1024[0m
+[00:08:53.634,000] [0m<inf> flash_stm32: Line 243[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:08:53.634,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:09:27.965,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:09:27.989,000] [0m<inf> flash_stm32: Line 248[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 274432, len: 1024[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 143360, len: 1024[0m
+[00:09:27.989,000] [0m<inf> flash_stm32: Line 243[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:09:27.989,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:10:02.321,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:10:02.344,000] [0m<inf> flash_stm32: Line 248[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 275456, len: 1024[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 144384, len: 1024[0m
+[00:10:02.344,000] [0m<inf> flash_stm32: Line 243[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:10:02.344,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:10:36.677,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:10:36.699,000] [0m<inf> flash_stm32: Line 248[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 276480, len: 1024[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 145408, len: 1024[0m
+[00:10:36.699,000] [0m<inf> flash_stm32: Line 243[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:10:36.699,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:11:11.032,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:11:11.054,000] [0m<inf> flash_stm32: Line 248[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 277504, len: 1024[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 146432, len: 1024[0m
+[00:11:11.054,000] [0m<inf> flash_stm32: Line 243[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:11:11.054,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:11:11.055,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:11:45.388,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:11:45.409,000] [0m<inf> flash_stm32: Line 248[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:11:45.409,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278528, len: 1024[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 147456, len: 1024[0m
+[00:11:45.410,000] [0m<inf> flash_stm32: Line 243[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:11:45.410,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:12:19.744,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:12:19.764,000] [0m<inf> flash_stm32: Line 248[0m
+[00:12:19.764,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:19.764,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:19.764,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:12:19.764,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:12:19.764,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 279552, len: 1024[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 148480, len: 1024[0m
+[00:12:19.765,000] [0m<inf> flash_stm32: Line 243[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:12:19.765,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:12:54.100,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:12:54.120,000] [0m<inf> flash_stm32: Line 248[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 280576, len: 1024[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 149504, len: 1024[0m
+[00:12:54.120,000] [0m<inf> flash_stm32: Line 243[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:12:54.120,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:13:28.455,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:13:28.475,000] [0m<inf> flash_stm32: Line 248[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 281600, len: 744[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 150528, len: 744[0m
+[00:13:28.475,000] [0m<inf> flash_stm32: Line 243[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:13:28.475,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:14:02.795,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:14:02.805,000] [0m<inf> flash_stm32: Line 248[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write: Write offset: 262128, len: 16[0m
+[00:14:02.805,000] [0m<inf> flash_stm32: Line 243[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:14:02.805,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:14:02.806,000] [0m<inf> flash_stm32: Line 248[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 300[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_erase: Erase offset: 262144, len: 131072[0m
+[00:14:02.806,000] [0m<inf> flash_stm32: Line 204[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000300[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000300[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 300[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32: flash_stm32_erase: rc value is 0[0m
+[00:14:02.806,000] [0m<inf> flash_stm32: In if condition[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32f4x: flush_cache: ACR value is 702[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 62[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 74[0m
+[00:14:02.806,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 83[0m
+[00:15:13.026,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:15:13.026,000] [0m<inf> flash_stm32: Line 212[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 0[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:15:13.026,000] [0m<inf> flash_stm32: succesfully of if condition 215 rc is 0[0m
+[00:15:13.026,000] [0m<inf> flash_stm32: rc and rc2 value is 0 and 0[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_erase: Erase offset: 262144, len: 131072[0m
+[00:15:13.026,000] [0m<inf> flash_stm32: Line 204[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:15:13.026,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 80000000[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: In the else condition[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: the value of regs->CR is 80000000[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of regs->CR & FLASH_CR_LOCK is 80000000[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Line 318 in the if con[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Unlocked regs[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Disable write protection[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Srikar: I am disabling the write protection now[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: value of regs->CR is 0[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32: flash_stm32_erase: rc value is 0[0m
+[00:15:13.027,000] [0m<inf> flash_stm32: In if condition[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32f4x: flush_cache: ACR value is 702[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 62[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 74[0m
+[00:15:13.027,000] [0m<dbg> flash_stm32f4x: flush_cache: Inside Line 83[0m
+[00:15:51.750,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:15:51.750,000] [0m<inf> flash_stm32: Line 212[0m
+[00:15:51.750,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:51.750,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:51.750,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: The value of dev is 0x800bc54[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: printing regs values[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: ACR value is 702[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: KEYR value is 0[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTKEYR value is 0[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: SR value is 0[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: CR value is 0[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: OPTC value is fffaaed[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH SECURITY is not set[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: FLASH_CR_LOCK is set[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Under FLASH_CR_LOCK[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Value of FLASH_CR_LOCK is 0x80000000[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_write_protection: Enable write protection[0m
+[00:15:51.751,000] [0m<inf> flash_stm32: succesfully of if condition 215 rc is 0[0m
+[00:15:51.751,000] [0m<inf> flash_stm32: rc and rc2 value is 0 and 0[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:15:51.751,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:15:51.751,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+[00:16:08.840,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:09.554,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:10.268,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:10.982,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:11.696,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:12.410,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:13.125,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:13.839,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:14.553,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:15.267,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:15.981,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:16.695,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:17.410,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:18.124,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:18.838,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:19.552,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:20.266,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:20.980,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:21.695,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:22.409,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:23.123,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:23.837,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:24.551,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:25.265,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:25.980,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:26.694,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:27.408,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:28.122,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:28.836,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:29.550,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:30.265,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:30.979,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:31.693,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:32.407,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:33.121,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:33.835,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:34.549,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:35.264,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:35.978,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:36.692,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:37.406,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:38.120,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:38.834,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:39.549,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:40.263,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:40.977,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:41.691,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:42.405,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:43.119,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:43.834,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:44.548,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:45.262,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:45.976,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:46.690,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:47.404,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:48.119,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:48.833,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:49.547,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:50.261,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:50.975,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:51.689,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:52.404,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:53.118,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:53.832,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:54.546,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:55.260,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:55.974,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:56.689,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:57.403,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:58.117,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:58.831,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:16:59.545,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:00.259,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:00.974,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:01.688,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:02.402,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:03.116,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:03.830,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:04.544,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:05.259,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:05.973,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:06.687,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:07.401,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:08.115,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:08.829,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:09.544,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:10.258,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:10.972,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:11.686,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:12.400,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:13.114,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:13.829,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:14.543,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:15.257,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:15.971,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:16.685,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:17.399,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:18.114,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:18.828,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:19.542,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:20.256,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:20.970,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:21.684,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:22.399,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:23.113,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:23.827,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:24.541,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:25.255,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:25.969,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:26.683,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:27.398,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:28.112,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:28.826,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:29.540,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:30.254,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:30.968,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:31.683,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:32.397,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:33.111,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:33.825,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:34.539,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:35.253,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:35.968,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:36.682,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:37.396,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:38.110,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:38.824,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:39.538,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:40.253,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:40.967,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:41.681,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:42.395,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:43.109,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:43.823,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:44.538,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:45.252,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:45.966,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:46.680,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:47.394,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:48.108,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:48.823,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:49.537,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:50.251,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:50.965,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:51.679,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:52.393,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:53.108,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:53.822,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:54.536,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:55.250,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:55.964,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:56.678,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:57.393,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:58.107,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:58.821,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:17:59.535,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:00.249,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:00.963,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:01.678,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:02.392,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:03.106,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:03.820,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:04.534,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:05.248,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:05.963,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:06.677,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:07.391,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:08.105,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:08.819,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:09.533,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:10.248,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:10.962,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:11.676,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:12.390,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:13.104,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:13.818,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:14.533,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:15.247,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:15.961,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:16.675,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:17.389,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:18.103,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:18.818,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:19.532,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:20.246,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:20.960,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:21.674,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:22.388,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:23.102,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:23.817,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:24.531,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:25.245,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:25.959,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:26.673,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:27.387,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:28.102,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:28.816,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:29.530,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:30.244,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:30.958,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:31.672,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:32.387,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:33.101,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:33.815,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:34.529,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:35.243,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:35.957,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:36.672,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:37.386,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:38.100,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:38.814,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:39.528,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:40.242,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:40.957,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:41.671,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:42.385,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:43.099,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:43.813,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:44.527,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:45.242,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:45.956,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:46.670,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:47.384,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:48.098,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:48.812,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:49.527,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:50.241,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:50.955,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:51.669,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:52.383,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:53.097,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:53.812,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:54.526,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:55.240,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:55.954,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:56.668,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:57.382,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:58.097,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:58.811,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:18:59.525,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:00.239,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:00.953,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:01.667,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:02.382,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:03.096,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:03.810,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:04.524,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:05.238,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:05.952,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:06.667,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:07.381,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:08.095,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:08.809,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:09.523,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:10.237,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:10.952,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:11.666,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:12.380,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:13.094,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:13.808,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:14.522,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:15.236,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:15.951,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:16.665,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:17.379,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:18.093,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:18.807,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:19.521,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:20.236,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:20.950,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:21.664,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:22.378,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:23.092,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:23.806,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:24.521,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:25.235,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:25.949,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:26.663,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:27.377,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:28.091,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:28.806,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:29.520,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:30.234,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:30.948,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:31.662,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:32.376,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:33.091,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:33.805,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:34.519,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:35.233,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:35.947,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:36.661,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:37.376,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:38.090,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:38.804,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:39.518,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:40.232,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:40.946,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:41.661,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:42.375,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:43.089,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:43.803,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:44.517,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:45.231,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:45.946,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:46.660,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:47.374,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:48.088,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:48.802,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:49.516,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:50.231,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:50.945,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:51.659,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:52.373,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:53.087,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:53.801,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:54.516,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:55.230,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:55.944,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:56.658,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:57.372,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:58.086,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:58.801,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:19:59.515,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:00.229,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:00.943,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:01.657,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:02.371,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:03.086,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:03.800,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:04.514,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:05.228,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:05.942,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:06.656,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:07.371,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:08.085,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:08.799,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:09.513,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:10.227,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:10.941,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:11.655,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:12.370,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:13.084,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:13.798,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:14.512,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:15.226,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:15.940,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:16.655,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:17.369,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:18.083,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:18.797,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:19.511,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:20.225,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:20.940,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:21.654,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:22.368,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:23.082,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:23.796,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:24.510,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:25.225,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:25.939,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:26.653,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:27.367,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:28.081,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:28.795,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:29.510,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:30.224,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:30.938,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:31.652,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:32.366,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:33.080,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:33.795,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:34.509,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:35.223,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:35.937,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:36.651,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:37.365,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:38.080,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:38.794,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:39.508,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:40.222,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:40.936,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:41.650,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:42.365,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:43.079,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:43.793,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:44.507,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:45.221,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:20:45.935,000] [0m<dbg> os: z_tick_sleep: thread 0x20000

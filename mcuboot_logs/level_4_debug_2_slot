@@ -1,0 +1,797 @@
+[00:00:00.000,000] [0m<dbg> os: setup_thread_stack: stack 0x200052c0 for thread 0x20002248: obj_size=10304 buf_start=0x20005300  buf_size 10240 stack_ptr=0x20007b00[0m
+[00:00:00.000,000] [0m<dbg> os: setup_thread_stack: stack 0x20005140 for thread 0x200021c8: obj_size=384 buf_start=0x20005180  buf_size 320 stack_ptr=0x200052c0[0m
+[00:00:00.000,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:00:00.000,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:00:00.000,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: stm32_flash_init: Flash @0x8000000 initialized. BS: 8[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: stm32_flash_init: Block 0: bs: 16384 count: 4[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: stm32_flash_init: Block 1: bs: 65536 count: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: stm32_flash_init: Block 2: bs: 131072 count: 3[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<dbg> os: k_sched_unlock: scheduler unlocked (0x20002248:0)[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 255[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134258012[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<dbg> os: setup_thread_stack: stack 0x200045c0 for thread 0x200000f8: obj_size=832 buf_start=0x20004600  buf_size 768 stack_ptr=0x20004900[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in loader.c[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2152[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2167[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2175[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2181
+The current image state is 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2196
+The current image indexis 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2214[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2229[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2234[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2240[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1855[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1875[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524272, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524248, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524256, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524264, len: 1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261328, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261336, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261344, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261352, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261360, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261368, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261376, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261384, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261392, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261400, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261408, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261416, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261424, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261432, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261440, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261448, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261456, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261464, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261472, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261480, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261488, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261496, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261504, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261512, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261520, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261528, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261536, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261544, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261552, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261560, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261568, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261576, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261584, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261592, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261600, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261608, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261616, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261624, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261632, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261640, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261648, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261656, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261664, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261672, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261680, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261688, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261696, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261704, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261712, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261720, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261728, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261736, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261744, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261752, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261760, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261768, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261776, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261784, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261792, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261800, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261808, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261816, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261824, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261832, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261840, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261848, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261856, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261864, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261872, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261880, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261888, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261896, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261904, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261912, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261920, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261928, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261936, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261944, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261952, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261960, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261968, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261976, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261984, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261992, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262000, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262008, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262016, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262024, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262032, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262040, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262048, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262056, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262064, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262072, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262080, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262088, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1912[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1919[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1935[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1971[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1973[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1152[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393200, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393176, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393184, len: 1[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393192, len: 1[0m
+[00:00:00.003,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1154[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1173[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1975[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2243[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2246[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2267[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2292[0m
+[00:00:00.003,000] [0m<inf> mcuboot: Line 2293
+The state is 1[0m
+[00:00:00.003,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+[00:00:00.030,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:06.030,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:06.030,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:06.030,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:06.030,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:06.060,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:06.060,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:06.060,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:11.244,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:11.244,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:11.244,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:11.244,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:11.274,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:11.274,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:11.274,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:16.458,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:16.458,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0xÿ[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[1;31m--- 31 messages dropped ---
+[0m[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524272, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524248, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524256, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524264, len: 1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261328, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261336, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261344, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261352, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261360, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261368, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261376, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261384, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261392, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261400, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261408, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261416, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261424, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261432, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261440, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261448, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261456, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261464, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261472, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261480, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261488, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261496, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261504, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261512, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261520, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261528, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261536, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261544, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261552, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261560, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261568, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261576, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261584, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261592, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261600, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261608, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261616, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261624, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261632, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261640, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261648, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261656, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261664, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261672, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261680, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261688, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261696, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261704, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261712, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261720, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261728, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261736, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261744, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261752, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261760, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261768, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261776, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261784, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261792, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261800, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261808, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261816, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261824, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261832, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261840, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261848, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261856, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261864, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261872, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261880, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261888, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261896, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261904, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261912, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261920, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261928, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261936, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261944, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261952, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261960, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261968, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261976, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261984, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261992, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262000, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262008, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262016, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262024, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262032, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262040, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262048, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262056, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262064, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262072, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262080, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262088, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1912[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1919[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1935[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1971[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1973[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1152[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393200, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393176, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393184, len: 1[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393192, len: 1[0m
+[00:00:00.003,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1154[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1173[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1975[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2243[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2246[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2267[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am in the loader.c line 2292[0m
+[00:00:00.003,000] [0m<inf> mcuboot: Line 2293
+The state is 1[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 256[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131328, len: 256[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131584, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131840, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 132096, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 132352, len: 256[0m
+[00:00:00.005,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 132608, len: 256[0m
+[00:00:00.005,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 132864, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 133120, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 133376, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 133632, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 133888, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 134144, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 134400, len: 256[0m
+[00:00:00.008,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 134656, len: 256[0m
+[00:00:00.008,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 134912, len: 256[0m
+[00:00:00.009,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 135168, len: 256[0m
+[00:00:00.009,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 135424, len: 256[0m
+[00:00:00.009,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 135680, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 135936, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 136192, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 136448, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 136704, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 136960, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 137216, len: 256[0m
+[00:00:00.012,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 137472, len: 256[0m
+[00:00:00.012,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 137728, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 137984, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 138240, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 138496, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 138752, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 139008, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 139264, len: 256[0m
+[00:00:00.015,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 139520, len: 256[0m
+[00:00:00.015,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 139776, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 140032, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 140288, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 140544, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 140800, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 141056, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 141312, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 141568, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 141824, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 142080, len: 256[0m
+[00:00:00.019,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 142336, len: 256[0m
+[00:00:00.019,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 142592, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 142848, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 143104, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 143360, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 143616, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 143872, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 144128, len: 256[0m
+[00:00:00.022,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 144384, len: 256[0m
+[00:00:00.022,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 144640, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 144896, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 145152, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 145408, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 145664, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 145920, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 146176, len: 256[0m
+[00:00:00.025,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 146432, len: 256[0m
+[00:00:00.025,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 146688, len: 256[0m
+[00:00:00.026,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 146944, len: 256[0m
+[00:00:00.026,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147200, len: 256[0m
+[00:00:00.026,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147456, len: 256[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147712, len: 164[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147876, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147880, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147884, len: 32[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147916, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147920, len: 32[0m
+[00:00:00.028,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147952, len: 4[0m
+[00:00:00.028,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 147956, len: 256[0m
+[00:00:00.030,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:40.730,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:40.730,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:40.730,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:40.730,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:40.760,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:40.760,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:40.760,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:45.944,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:45.944,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:45.944,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:45.944,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:45.974,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:45.974,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:45.974,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:51.158,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:51.158,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:51.158,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:51.158,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:51.188,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:51.188,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:51.188,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+Blinky from blinky1 on stm32f411e_disco!
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2234[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2240[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1855[0m
+[1;31m--- 25 messages dropped ---
+[0m[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1875[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524272, len: 16[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524248, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524256, len: 1[0m
+[00:00:00.000,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 524264, len: 1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261328, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261336, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261344, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261352, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261360, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261368, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261376, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261384, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261392, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261400, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261408, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261416, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261424, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261432, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261440, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261448, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261456, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261464, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261472, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261480, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261488, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261496, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261504, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261512, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261520, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261528, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261536, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261544, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261552, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261560, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261568, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261576, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261584, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261592, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261600, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261608, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261616, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261624, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261632, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261640, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261648, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261656, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261664, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261672, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261680, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261688, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261696, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261704, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261712, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261720, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261728, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261736, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261744, len: 1[0m
+[00:00:00.001,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261752, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261760, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261768, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261776, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261784, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261792, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261800, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261808, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261816, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261824, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261832, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261840, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261848, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261856, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261864, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261872, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261880, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261888, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261896, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261904, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261912, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261920, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261928, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261936, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261944, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261952, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261960, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261968, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261976, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261984, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 261992, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262000, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262008, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262016, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262024, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262032, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262040, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262048, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262056, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262064, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262072, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262080, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262088, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1912[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 131072, len: 32[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 32[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1919[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1935[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1971[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1973[0m
+[00:00:00.002,000] [0m<inf> mcuboot: I am loader.c 1152[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262128, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262104, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262112, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262120, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393200, len: 16[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393176, len: 1[0m
+[00:00:00.002,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393184, len: 1[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 393192, len: 1[0m
+[00:00:00.003,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1154[0m
+[00:00:00.003,000] [0m<inf> mcuboot: I am loader.c 1159[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262144, len: 256[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262400, len: 256[0m
+[00:00:00.003,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262656, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 262912, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 263168, len: 256[0m
+[00:00:00.004,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 263424, len: 256[0m
+[00:00:00.005,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 263680, len: 256[0m
+[00:00:00.005,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 263936, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 264192, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 264448, len: 256[0m
+[00:00:00.006,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 264704, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 264960, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 265216, len: 256[0m
+[00:00:00.007,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 265472, len: 256[0m
+[00:00:00.008,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 265728, len: 256[0m
+[00:00:00.008,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 265984, len: 256[0m
+[00:00:00.008,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 266240, len: 256[0m
+[00:00:00.009,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 266496, len: 256[0m
+[00:00:00.009,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 266752, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 267008, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 267264, len: 256[0m
+[00:00:00.010,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 267520, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 267776, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 268032, len: 256[0m
+[00:00:00.011,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 268288, len: 256[0m
+[00:00:00.012,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 268544, len: 256[0m
+[00:00:00.012,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 268800, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 269056, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 269312, len: 256[0m
+[00:00:00.013,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 269568, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 269824, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 270080, len: 256[0m
+[00:00:00.014,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 270336, len: 256[0m
+[00:00:00.015,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 270592, len: 256[0m
+[00:00:00.015,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 270848, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 271104, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 271360, len: 256[0m
+[00:00:00.016,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 271616, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 271872, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 272128, len: 256[0m
+[00:00:00.017,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 272384, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 272640, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 272896, len: 256[0m
+[00:00:00.018,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 273152, len: 256[0m
+[00:00:00.019,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 273408, len: 256[0m
+[00:00:00.019,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 273664, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 273920, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 274176, len: 256[0m
+[00:00:00.020,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 274432, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 274688, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 274944, len: 256[0m
+[00:00:00.021,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 275200, len: 256[0m
+[00:00:00.022,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 275456, len: 256[0m
+[00:00:00.022,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 275712, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 275968, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 276224, len: 256[0m
+[00:00:00.023,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 276480, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 276736, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 276992, len: 256[0m
+[00:00:00.024,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 277248, len: 256[0m
+[00:00:00.025,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 277504, len: 256[0m
+[00:00:00.025,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 277760, len: 256[0m
+[00:00:00.025,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278016, len: 256[0m
+[00:00:00.026,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278272, len: 256[0m
+[00:00:00.026,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278528, len: 256[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278784, len: 164[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278948, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278952, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278956, len: 32[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278988, len: 4[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 278992, len: 32[0m
+[00:00:00.027,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 279024, len: 4[0m
+[00:00:00.028,000] [0m<dbg> flash_stm32: flash_stm32_read: Read offset: 279028, len: 256[0m
+[00:00:00.030,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:00:00.030,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:41.013,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:41.013,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:41.013,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:41.013,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:41.043,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:41.043,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:41.043,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:46.227,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:46.228,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:46.228,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:46.228,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:46.258,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:46.258,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:46.258,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m
+[00:02:51.442,000] [0m<dbg> os: z_tick_sleep: thread 0x200000f8 for 300 ticks[0m
+[00:02:51.442,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:51.442,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:51.442,000] [0m<dbg> mpu: region_init: [2] 0x200052c0 0x150b000a[0m
+[00:02:51.472,000] [0m<dbg> mpu: mpu_configure_region: Configure MPU region at index 0x2[0m
+[00:02:51.472,000] [0m<dbg> mpu: region_allocate_and_init: Program MPU region at index 0x2[0m
+[00:02:51.472,000] [0m<dbg> mpu: region_init: [2] 0x200045c0 0x150b000a[0m

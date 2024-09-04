@@ -1,0 +1,116 @@
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241921[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in loader.c[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2152[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2167[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2175[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2181
+The current image state is 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2196
+The current image indexis 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2214[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2229[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2234[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2240[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1855[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1875[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2243[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2246[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2267[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2292[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Line 2293
+The state is 1[0m
+[00:00:00.001,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241921[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in loader.c[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2152[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2167[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2175[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2181
+The current image state is 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2196
+The current image indexis 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2214[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2229[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2234[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2240[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1855[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1875[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2243[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2246[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2267[0m
+[00:00:00.001,000] [0m<inf> mcuboot: I am in the loader.c line 2292[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Line 2293
+The state is 1[0m
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+Blinky from blinky1 on stm32f411e_disco!
+LED state: OFF
+LED state: ON
+LED state: OFF
+LED state: ON
+LED state: OFF
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241921[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in loader.c[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2152[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2167[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2175[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2181
+The current image state is 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2196
+The current image indexis 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2214[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2229[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2234[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am in the loader.c line 2240[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1855[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1875[0m
+[00:00:00.000,000] [0m<inf> mcuboot: I am loader.c 1901[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:14.449,000] [0m<inf> mcuboot: I am in the loader.c line 2243[0m
+[00:00:14.449,000] [0m<inf> mcuboot: I am in the loader.c line 2246[0m
+[00:00:14.449,000] [0m<inf> mcuboot: I am in the loader.c line 2267[0m
+[00:00:14.449,000] [0m<inf> mcuboot: I am in the loader.c line 2292[0m
+[00:00:14.449,000] [0m<inf> mcuboot: Line 2293
+The state is 2[0m
+[00:00:14.449,000] [0m<inf> mcuboot: Starting swap using scratch algorithm.[0m
+[00:00:14.472,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:14.472,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:14.472,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:14.472,000] [1;31m<err> os:   Precise data bus error[0m
+[00:00:14.472,000] [1;31m<err> os:   BFAR Address: 0x3101f080[0m
+[00:00:14.472,000] [1;31m<err> os: r0/a1:  0x08009608  r1/a2:  0x00000000  r2/a3:  0xe0400000[0m
+[00:00:14.472,000] [1;31m<err> os: r3/a4:  0x0001033a r12/ip:  0x00003871 r14/lr:  0xfffffff1[0m
+[00:00:14.472,000] [1;31m<err> os:  xpsr:  0xa1000006[0m
+[00:00:14.472,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x3101f082[0m
+[00:00:14.472,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 25: Unknown error on CPU 0[0m
+[00:00:14.472,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:14.472,000] [1;31m<err> os: Current thread: 0x20002248 (unknown)[0m
+[00:00:14.499,000] [1;31m<err> os: Halting system[0m

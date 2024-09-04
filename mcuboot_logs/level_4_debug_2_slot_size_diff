@@ -1,0 +1,158 @@
+I am*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134242209[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+ in image_validate.c line 417
+I am in image_validate.c line 441
+	Printing image_tlv_iter
+image_tlv_iter->image_header
+image_tlv_iter->image_header->ih_magic : -1762412483
+image_tlv_iter->image_header->ih_load_addr : 0
+image_tlv_iter->image_header->ih_hdr_size : 512
+image_tlv_iter->image_header->ih_protect_tlv_size : 0
+image_tlv_iter->image_header->ih_img_size : 16292
+image_tlv_iter->image_header->ih_flags : 0
+
+image_tlv_iter->image_header->image_version
+image_tlv_iter->flash_area
+image_tlv_iter->flash_area->fa_id : 2
+image_tlv_iter->flash_area->pad16 : 0
+image_tlv_iter->flash_area->fa_off : 131072
+image_tlv_iter->flash_area->fa_size : 65536
+
+image_tlv_iter->type
+image_tlv_iter->type : 65535
+
+image_tlv_iter->prot
+image_tlv_iter->prot : 0
+
+image_tlv_iter->prot_end
+image_tlv_iter->prot_end : 16804
+
+image_tlv_iter->tlv_off
+image_tlv_iter->tlv_off : 16808
+
+image_tlv_iter->tlv_end
+image_tlv_iter->tlv_end : 17140
+
+image_tlv_iter->tlv_off
+it->tlv_off: 16808
+rc vlaue is 0
+I am in image_validate.c line 441
+	Printing image_tlv_iter
+image_tlv_iter->image_header
+image_tlv_iter->image_header->ih_magic : -1762412483
+image_tlv_iter->image_header->ih_load_addr : 0
+image_tlv_iter->image_header->ih_hdr_size : 512
+image_tlv_iter->image_header->ih_protect_tlv_size : 0
+image_tlv_iter->image_header->ih_img_size : 16292
+image_tlv_iter->image_header->ih_flags : 0
+
+image_tlv_iter->image_header->image_version
+image_tlv_iter->flash_area
+image_tlv_iter->flash_area->fa_id : 2
+image_tlv_iter->flash_area->pad16 : 0
+image_tlv_iter->flash_area->fa_off : 131072
+image_tlv_iter->flash_area->fa_size : 65536
+
+image_tlv_iter->type
+image_tlv_iter->type : 65535
+
+image_tlv_iter->prot
+image_tlv_iter->prot : 0
+
+image_tlv_iter->prot_end
+image_tlv_iter->prot_end : 16804
+
+image_tlv_iter->tlv_off
+image_tlv_iter->tlv_off : 16844
+
+image_tlv_iter->tlv_end
+image_tlv_iter->tlv_end : 17140
+
+image_tlv_iter->tlv_off
+it->tlv_off: 16844
+rc vlaue is 0
+I am in image_validate.c line 441
+	Printing image_tlv_iter
+image_tlv_iter->image_header
+image_tlv_iter->image_header->ih_magic : -1762412483
+image_tlv_iter->image_header->ih_load_addr : 0
+image_tlv_iter->image_header->ih_hdr_size : 512
+image_tlv_iter->image_header->ih_protect_tlv_size : 0
+image_tlv_iter->image_header->ih_img_size : 16292
+image_tlv_iter->image_header->ih_flags : 0
+
+image_tlv_iter->image_header->image_version
+image_tlv_iter->flash_area
+image_tlv_iter->flash_area->fa_id : 2
+image_tlv_iter->flash_area->pad16 : 0
+image_tlv_iter->flash_area->fa_off : 131072
+image_tlv_iter->flash_area->fa_size : 65536
+
+image_tlv_iter->type
+image_tlv_iter->type : 65535
+
+image_tlv_iter->prot
+image_tlv_iter->prot : 0
+
+image_tlv_iter->prot_end
+image_tlv_iter->prot_end : 16804
+
+image_tlv_iter->tlv_off
+image_tlv_iter->tlv_off : 16880
+
+image_tlv_iter->tlv_end
+image_tlv_iter->tlv_end : 17140
+
+image_tlv_iter->tlv_off
+it->tlv_off: 16880
+rc vlaue is 0
+I am in image_validate.c line 441
+	Printing image_tlv_iter
+image_tlv_iter->image_header
+image_tlv_iter->image_header->ih_magic : -1762412483
+image_tlv_iter->image_header->ih_load_addr : 0
+image_tlv_iter->image_header->ih_hdr_size : 512
+image_tlv_iter->image_header->ih_protect_tlv_size : 0
+image_tlv_iter->image_header->ih_img_size : 16292
+image_tlv_iter->image_header->ih_flags : 0
+
+image_tlv_iter->image_header->image_version
+image_tlv_iter->flash_area
+image_tlv_iter->flash_area->fa_id : 2
+image_tlv_iter->flash_area->pad16 : 0
+image_tlv_iter->flash_area->fa_off : 131072
+image_tlv_iter->flash_area->fa_size : 65536
+
+image_tlv_iter->type
+image_tlv_iter->type : 65535
+
+image_tlv_iter->prot
+image_tlv_iter->prot : 0
+
+image_tlv_iter->prot_end
+image_tlv_iter->prot_end : 16804
+
+image_tlv_iter->tlv_off
+image_tlv_iter->tlv_off : 17140
+
+image_tlv_iter->tlv_end
+image_tlv_iter->tlv_end : 17140
+[00:00:39.807,000] [0m<inf> mcuboot: Starting swap using scratch algorithm.[0m
+[00:00:39.811,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:39.811,000] [1;31m<err> os:   Precise data bus error[0m
+[00:00:39.811,000] [1;31m<err> os:   BFAR Address: 0x20020000[0m
+[00:00:39.811,000] [1;31m<err> os: r0/a1:  0x00003b8d  r1/a2:  0x000042f4  r2/a3:  0xfffc2f5d[0m
+[00:00:39.811,000] [1;31m<err> os: r3/a4:  0xe248fafb r12/ip:  0x00009b7f r14/lr:  0x080015bb[0m
+[00:00:39.811,000] [1;31m<err> os:  xpsr:  0xa1000200[0m
+[00:00:39.811,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08006a64[0m
+[00:00:39.811,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 25: Unknown error on CPU 0[0m
+[00:00:39.811,000] [1;31m<err> os: Current thread: 0x20002248 (unknown)[0m
+[00:00:39.849,000] [1;31m<err> os: Halting system[0m

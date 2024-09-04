@@ -1,0 +1,851 @@
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Trc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcubootrc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+[00:00:09.191,000] [0m<inf> mcuboot: Starting swap using scratch algorithm.[0m
+[00:00:09.197,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:09.197,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:09.197,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:09.198,000] [1;31m<err> os:   Instruction bus error[0m
+[00:00:09.198,000] [1;31m<err> os: r0/a1:  0x00000000  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:09.198,000] [1;31m<err> os: r3/a4:  0x0001033a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:09.198,000] [1;31m<err> os:  xpsr:  0x41000005[0m
+[00:00:09.198,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08004078[0m
+[00:00:09.198,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 27: Unknown error on CPU 0[0m
+[00:00:09.198,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:09.198,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:09.226,000] [1;31m<err> os: Halting system[0m
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.001,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+Hello World from blinky1 on stm32f411e_disco!
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+rc *** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 67[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134243033[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 131072,131072[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Primary image: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Scratch: magic=unset, swap_type=0x1, copy_done=0x3, image_ok=0x3[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Boot source: primary slot[0m
+[00:00:00.001,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+vlaue is 0
+rc vlaue is 0
+rc vlaue is 0
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bÿ*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.313,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.313,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.313,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.313,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.313,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.313,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x00001000[0m
+[00:00:06.313,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.313,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.313,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.341,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.266,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.266,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.307,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.307,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.307,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.307,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.307,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.307,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.307,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.307,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x00001400[0m
+[00:00:06.307,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.307,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.307,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.329,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.318,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.318,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.318,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.318,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.318,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.318,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.318,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.318,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x00001000[0m
+[00:00:06.318,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.318,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.318,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.346,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:00.087,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:00.087,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:00.087,000] [1;31m<err> os: ***** USAGE FAULT *****[0m
+[00:00:00.087,000] [1;31m<err> os:   Unaligned memory access[0m
+[00:00:00.087,000] [1;31m<err> os: r0/a1:  0x00000005  r1/a2:  0x0000000þ*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.324,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.324,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.324,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.324,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.324,000] [1;31m<err> os: r0/a1:  0x00000000  r1/a2:  0x0808c054  r2/a3:  0x0800a784[0m
+[00:00:06.324,000] [1;31m<err> os: r3/a4:  0x0001031a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.324,000] [1;31m<err> os:  xpsr:  0x21000004[0m
+[00:00:06.324,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.324,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.324,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.324,000*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: ô*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.275,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.275,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.315,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.315,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.315,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[0*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.274,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.274,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.313,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.313,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.313,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x0a08f81c  r2/a3:  0x0800a784[0m
+[00:00:06.313,000] [1;31m<err> os: r3/a4:  0x00410a13 r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.313,000] [1;31m<err> os:  xpsr:  0x21000204[0m
+[00:00:06.313,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.313,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.313,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.313,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.341,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:00.085,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:00.085,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:00.085,000] [1;31m<err> os: ***** USAGE FAULT *****[0m
+[00:00:00.085,000] [1;31m<err> os:   Unaligned memory access[0m
+[00:00:00.085,000] [1;31m<err> os: r0/a1:  0x00000041  r1/a2:  0x00000000  r2/a3:  0x3cf5ca65[0m
+[00:00:00.085,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0x08007ed5[0m
+[00:00:00.085,000] [1;31m<err> os:  xpsr:  0xa1000204[0m
+[00:00:00.085,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08003d44[0m
+[00:00:00.085,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 31: Unknown error on CPU 0[0m
+[00:00:00.085,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:00.085,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:00.098,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:00.034,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:00.087,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:00.087,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:00.087,000] [1;31m<err> os: ***** USAGE FAULT *****[0m
+[00:00:00.087,000] [1;31m<err> os:   Attempt to execute undefined instruction[0m
+[00:00:00.087,000] [1;31m<err> os: r0/a1:  0x1fff52fa  r1/a2:  0xffffffff  r2/a3:  0x00000000[0m
+[00:00:00.087,000] [1;31m<err> os: r3/a4:  0xe000ad06 r12/ip:  0x0000a770 r14/lr:  0x08007ed5[0m
+[00:00:00.087,000] [1;31m<err> os:  xpsr:  0x01000204[0m
+[00:00:00.087,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08003d0e[0m
+[00:00:00.087,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 36: Unknown error on CPU 0[0m
+[00:00:00.087,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:00.087,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:00.090,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.325,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.325,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.325,000] [1;31m<err> os: r0/a1:  0x00000000  r1/a2:  0x0808c054  r2/a3:  0x0800a784[0m
+[00:00:06.325,000] [1;31m<err> os: r3/a4:  0x0001031a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.325,000] [1;31m<err> os:  xpsr:  0x21000004[0m
+[00:00:06.325,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.325,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.325,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.325,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.352,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.325,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.325,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.325,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.325,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.325,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.325,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08001614[0m
+[00:00:06.325,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.325,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.325,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.353,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.313,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.313,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:06.313,000] [1;31m<err> os:   Instruction bus error[0m
+[00:00:06.313,000] [1;31m<err> os: r0/a1:  0x2000008c  r1/a2:  0x200043ac  r2/a3:  0x0800a784[0m
+[00:00:06.313,000] [1;31m<err> os: r3/a4:  0xfffffff5 r12/ip:  0x00020000 r14/lr:  0x080037cb[0m
+[00:00:06.313,000] [1;31m<err> os:  xpsr:  0x80000005[0m
+[00:00:06.313,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x200043ac[0m
+[00:00:06.313,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 27: Unknown error on CPU 0[0m
+[00:00:06.313,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.313,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.342,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.325,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.325,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Instruction bus error[0m
+[00:00:06.325,000] [1;31m<err> os: r0/a1:  0x2000008c  r1/a2:  0x200043ac  r2/a3:  0x0800a784[0m
+[00:00:06.325,000] [1;31m<err> os: r3/a4:  0xfffffff5 r12/ip:  0x00020000 r14/lr:  0x080037cb[0m
+[00:00:06.325,000] [1;31m<err> os:  xpsr:  0x80000005[0m
+[00:00:06.325,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x200043ac[0m
+[00:00:06.325,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 27: Unknown error on CPU 0[0m
+[00:00:06.325,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.325,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.354,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboï*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.325,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.325,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Precise data bus error[0m
+[00:00:06.325,000] [1;31m<err> os:   BFAR Address: 0xa00ded0[0m
+[00:00:06.325,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x0a00decc  r2/a3:  0x0800a784[0m
+[00:00:06.325,000] [1;31m<err> os: r3/a4:  0x004006e9 r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.325,000] [1;31m<err> os:  xpsr:  0x21000205[0m
+[00:00:06.325,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.325,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 25: Unknown error on CPU 0[0m
+[00:00:06.325,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.325,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.350,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.312,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.312,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.312,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.312,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.312,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.312,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.312,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.312,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08001630[0m
+[00:00:06.312,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.312,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.312,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.339,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+Hello World from blinky1 on stm32f411e_disco!
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.338,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.338,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.338,000] [1;31m<err> os: ***** BUS FAULT *****[0m
+[00:00:06.338,000] [1;31m<err> os:   Precise data bus error[0m
+[00:00:06.338,000] [1;31m<err> os:   BFAR Address: 0x808c058[0m
+[00:00:06.338,000] [1;31m<err> os: r0/a1:  0x00000000  r1/a2:  0x0808c054  r2/a3:  0x0800a784[0m
+[00:00:06.338,000] [1;31m<err> os: r3/a4:  0x0001031a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.338,000] [1;31m<err> os:  xpsr:  0x21000005[0m
+[00:00:06.338,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.338,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 25: Unknown error on CPU 0[0m
+[00:00:06.338,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.338,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.362,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.328,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.328,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.328,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.328,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.328,000] [1;31m<err> os: r0/a1:  0x0800a770  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.328,000] [1;31m<err> os: r3/a4:  0x0001032a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.328,000] [1;31m<err> os:  xpsr:  0x00000004[0m
+[00:00:06.328,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x08003630[0m
+[00:00:06.328,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.328,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.328,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.356,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.315,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.315,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.315,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.315,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.315,000] [1;31m<err> os: r0/a1:  0x00000000  r1/a2:  0x00000000  r2/a3:  0x00000000[0m
+[00:00:06.315,000] [1;31m<err> os: r3/a4:  0x00000000 r12/ip:  0x00020000 r14/lr:  0x08006ed1[0m
+[00:00:06.315,000] [1;31m<err> os:  xpsr:  0x40000004[0m
+[00:00:06.315,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x00000000[0m
+[00:00:06.315,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.315,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.315,000] [1;31m<err> os: Current thread: (nil) (unknown)[0m
+[00:00:06.361,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 51[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134240793[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:06.283,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:06.325,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:06.325,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:06.325,000] [1;31m<err> os:   Instruction Access Violation[0m
+[00:00:06.325,000] [1;31m<err> os: r0/a1:  0x3b108305  r1/a2:  0x0808c054  r2/a3:  0x0800a784[0m
+[00:00:06.325,000] [1;31m<err> os: r3/a4:  0x0001031a r12/ip:  0x00020000 r14/lr:  0xfffffff1[0m
+[00:00:06.325,000] [1;31m<err> os:  xpsr:  0x21000004[0m
+[00:00:06.325,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x080037c2[0m
+[00:00:06.325,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 20: Unknown error on CPU 0[0m
+[00:00:06.325,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:06.325,000] [1;31m<err> os: Current thread: 0x20002228 (unknown)[0m
+[00:00:06.353,000] [1;31m<err> os: Halting system[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 128[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241453[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+[00:00:00.000,000] [1;31m<err> mcuboot: Unable to find bootable image[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 128[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241453[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: none[0m
+*** Booting Zephyr OS build v3.7.0-906-g47a0813561af ***
+Hello World from blinky1 on stm32f411e_disco!
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 128[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241453[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+*** Booting MCUboot v2.1.0-70-g148c2c1662f9 ***
+*** Using Zephyr OS build v3.7.0-906-g47a0813561af ***
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah dev id 128[0m
+[00:00:00.000,000] [0m<inf> mcuboot: boot flsah image offset 134241453[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Starting bootloader[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Passed Boot Serial Entrance GPIO[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of i and num_sectors_primary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of j and num_sectors_secondary is 1,1[0m
+[00:00:00.000,000] [0m<inf> mcuboot: The value of primary_slot_sz and secondary_slot_sz is 0,0[0m
+[00:00:00.000,000] [0m<inf> mcuboot: Image index: 0, Swap type: test[0m
+[00:00:00.035,000] [0m<inf> mcuboot: Image 0 upgrade secondary slot -> primary slot[0m
+[00:00:00.035,000] [0m<inf> mcuboot: Erasing the primary slot[0m
+[00:00:00.062,000] [1;31m<err> flash_stm32: Timeout! val: 8000[0m
+[00:00:00.062,000] [1;31m<err> os: ***** HARD FAULT *****[0m
+[00:00:00.062,000] [1;31m<err> os:   Fault escalation (see below)[0m
+[00:00:00.062,000] [1;31m<err> os: ***** USAGE FAULT *****[0m
+[00:00:00.062,000] [1;31m<err> os:   Illegal use of the EPSR[0m
+[00:00:00.062,000] [1;31m<err> os: r0/a1:  0xfffffffb  r1/a2:  0x0000000d  r2/a3:  0x0000000c[0m
+[00:00:00.062,000] [1;31m<err> os: r3/a4:  0x00020000 r12/ip:  0x0000026c r14/lr:  0x08007817[0m
+[00:00:00.062,000] [1;31m<err> os:  xpsr:  0x60000005[0m
+[00:00:00.062,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x00020000[0m
+[00:00:00.062,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 35: Unknown error on CPU 0[0m
+[00:00:00.062,000] [1;31m<err> os: Fault during interrupt handling
+[0m
+[00:00:00.062,000] [1;31m<err> os: Current thread: 0x20002248 (unknown)[0m
+[00:00:00.120,000] [1;31m<err> os: Halting system[0m
