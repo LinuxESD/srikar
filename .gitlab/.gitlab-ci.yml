@@ -1,0 +1,39 @@
+#
+# Arm SCP/MCP Software
+# Copyright (c) 2024, Arm Limited and Contributors. All rights reserved.
+#
+# SPDX-License-Identifier: BSD-3-Clause
+#
+
+variables:
+  PIPELINE_TYPE:
+    value: "deployment-pipeline"
+    options:
+      - "deployment-pipeline"
+      - "daily-pipeline"
+      - "weekly-pipeline"
+    description: "The CI pipeline to run"
+
+  FETCH_PUBLIC_MR:
+    value: "false"
+    options:
+      - "false"
+      - "true"
+    description: "Fetch branch from public MR"
+
+  FETCH_PUBLIC_MR_NUMBER:
+    description: "MR number to fetch"
+
+
+include:
+  - local: .gitlab/pipelines/deployment-pipeline.yml
+    rules:
+      - if: $PIPELINE_TYPE == "deployment-pipeline"
+
+  - local: .gitlab/pipelines/daily-pipeline.yml
+    rules:
+      - if: $PIPELINE_TYPE == "daily-pipeline"
+
+  - local: .gitlab/pipelines/weekly-pipeline.yml
+    rules:
+      - if: $PIPELINE_TYPE == "weekly-pipeline"

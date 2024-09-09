@@ -1,0 +1,282 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Architecture and Framework",
+  "steps": [
+    {
+      "file": "arch/arm/arm-m/src/arch_main.c",
+      "description": "Every code starts from main.",
+      "line": 67
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "In this function we will set up all the initializations that are required.\nThis function will setup \n1. queues\n2. io\n3. log feature\n4. interrupt management\n5. all module related functions.\n\nNow after successful initalization main loop will run forever (in the case of dedicated SCP)",
+      "line": 58
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "So once everything is clear loop runs forever",
+      "line": 102
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "This is located in fwk_module.c",
+      "line": 134
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "In this function the loop will iterate for all modules.\nYou can see \"FWK_MODULE_IDX_COUNT\" gives the the number of modules present.\nThis is done by cmake while buliding the product.",
+      "line": 140
+    },
+    {
+      "file": "framework/src/fwk_module_list.c.in",
+      "description": "The values of \n1. SC_MODULE_EXTERN_GEN\n2. SCP_MODULE_GEN\n3. SCP_MODULE_EXTERN_CONFIG_GEN\n4. SCP_MODULE_CONFIG_GEN\nare automtically populated",
+      "line": 13
+    },
+    {
+      "file": "framework/CMakeLists.txt",
+      "description": "So, in the framework/CMakeLists.txt the conditions are defined.\n1. all the module names must start with fwk_module module_modulename.\n2. all configs must start with fwk_module_config config_modulename.\nBased on these, during build cmake will check the required conditions. If they meet those will be added accordingly.",
+      "line": 186
+    },
+    {
+      "file": "build/juno/GNU/release/firmware-scp_ramfw/framework/src/fwk_module_list.c",
+      "description": "After building the code for JUNO product, we can see the list of modules.\nThese will be used in the required places",
+      "line": 12
+    },
+    {
+      "file": "build/juno/GNU/release/firmware-scp_ramfw/framework/include/fwk_module_idx.h",
+      "description": "Similiarily module indexex are allocated.\nNow the order of modules is very important as the very same order is used during pre-runtime stages.\nThis order is defined in the product/juno/scp_ramfw/Firmware.cmake",
+      "line": 86
+    },
+    {
+      "file": "product/juno/scp_ramfw/Firmware.cmake",
+      "description": "This is product/juno/scp_ramfw/Firmware.cmake\nWe can observe the same order of modules in the fwk_module_idx.h as defined here.",
+      "line": 80
+    },
+    {
+      "file": "product/juno/scp_ramfw/Firmware.cmake",
+      "description": "If I want to add my own customized modules as required by the produxt they are added here",
+      "line": 112
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now we have seen how the framework is getting the modules list with count.\nThe main point here is, all of this work is being done by cmake.\n\nIn this function\n1. We create pointers for module and module_configurations.\n2. Initialize delayed_response_list for each module context.\n\nNow every module must have a configuration. If the module does'nt have any configuration it is given as NULL or 0",
+      "line": 144
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_scmi.c",
+      "description": "We can see SCMI module is having config_scmi configuration.",
+      "line": 124
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_scmi.c",
+      "description": "All the elements in SCMI module for JUNO product are populated in the .elements",
+      "line": 138
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_scmi.c",
+      "description": "This is the element table.\nIn case of SCMI, the elements represent the agents from which communication is taking place, with the respective paremeters.\nSo different module and element configurations are different.\nThey depend upon the functionality and instances of the module.",
+      "line": 19
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_transport.c",
+      "description": "Similiarly, we can see the configuration of transport module.\nYou can observe unlike SCMI module, transport module is not having any module specific configurations.\nIt is just having a element table",
+      "line": 339
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_transport.c",
+      "description": "This is the element table for transport module for JUNO product.\nThe elments are the types of channels of communication.\nThis config is the bridge between MHU and SCMI module.\nHas the address of shared memory, type of channel etc.",
+      "line": 24
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_mhu.c",
+      "description": "Similiar with the case of MHU (Message Handling unit).",
+      "line": 57
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_mhu.c",
+      "description": "The element table of MHU module.\nHere the elements are IRQ numbers that are recieved by different agents.\nThe in and out base addresses of IRQ etc.",
+      "line": 21
+    },
+    {
+      "file": "product/juno/scp_ramfw/config_scmi_perf.c",
+      "description": "Now it is interesting to note that some modules may have only module configuration data but no elements at all.",
+      "line": 87
+    },
+    {
+      "file": "module/scmi_sensor/src/mod_scmi_sensor.c",
+      "description": "And some modules dont have any module configuration data at all.\nSince this module is not having any configuration data w.r.t to module and element this is just written simply in the mod_scmi_sensor.c file, rather writing is the config*.c file.",
+      "line": 1203
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now we will move to the following function",
+      "line": 167
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "This function does the following.\n1. Get the number of elements for each module (we have previously seen the element data)\n2. Allocate memory for all elements in each module\nThen run the \"for\" loop for elements in each module, having the function fwk_module_init_element_ctx()",
+      "line": 115
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "This function does the following\n1. Set the state of each element as uninitalized.\n2. Initilaize delayed_response_list for each element context.",
+      "line": 94
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "Thus in fwk_module_init we just allocate the required memory for all modules, elements and subelements for every module",
+      "line": 70
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "Initializes the interrupt management.\nFor JUNO SCP we have NVIC as the interrupt controller.\nAt AP's we use the GIC as the interrupt controller",
+      "line": 83
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "A very crucial function.",
+      "line": 88
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "",
+      "line": 414
+    },
+    {
+      "file": "framework/src/fwk_core.c",
+      "description": "Initialize the event queues\n1. Free event queue -> queue that is free to be filled in. This is attached to either event queue or ISR queue depending upon context.\n2. Event queue -> All the events are attached to event queue.\n3. ISR queue -> All the interrupt events are attched to ISR queue.\n\nThe typcal size of queue is 64 events",
+      "line": 290
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Set the module stage as Initialized.\nCalls the fwk_module_init_modules()",
+      "line": 429
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "For every module call fwk_module_init_module where the input is the module context table.",
+      "line": 273
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now for the init function of every module is called.\nThe common modules for all the platforms are in the /module directory.\nModules specific to the product will be in the /product/module directory. Example is /juno/module.\nThe order of the modules is specified in the Firmware.cmake file. Ex juno/sc_ramfw/Firmware.cmake",
+      "line": 252
+    },
+    {
+      "file": "module/scmi/src/mod_scmi.c",
+      "description": "Now for during SCMI module init \"scmi_init\" function will run",
+      "line": 1347
+    },
+    {
+      "file": "module/scmi/src/mod_scmi.c",
+      "description": "This is the code for \"scmi_init\"",
+      "line": 816
+    },
+    {
+      "file": "module/transport/src/mod_transport.c",
+      "description": "Similiarly during transport module init \"transport_init\" will run.\nLike that for every module there will be a initialization function.",
+      "line": 1195
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "After module initialization, element initialization is done for every module.\nSo this function is called iff there are elements.",
+      "line": 258
+    },
+    {
+      "file": "doc/framework.md",
+      "description": "Indices and Identifiers",
+      "line": 254
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "For every element in a module a unique integer is assigned, which is known as element_id.\nThis is done using the function fwk_id_build_element_id().",
+      "line": 191
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now call the element initialization function.",
+      "line": 202
+    },
+    {
+      "file": "module/scmi/src/mod_scmi.c",
+      "description": "Now for SCMI module during element initialization \"scmi_service_init\" is run.",
+      "line": 1348
+    },
+    {
+      "file": "module/scmi/src/mod_scmi.c",
+      "description": "This is the source code of \"scmi_service_init\"",
+      "line": 872
+    },
+    {
+      "file": "module/transport/src/mod_transport.c",
+      "description": "Similiarly with the case of transport module.",
+      "line": 1196
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now we will move into binding the modules.\nThough binding is a optional stage in the pre-runtime stages, it is one of the most crucial stages.\nThe binding facilitates communication across different modules.\nm-30",
+      "line": 433
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "In SCP firmware binding takes place in two stages.\nImportant to note that\n1. Some modules may not need binding at all.\n2. Some modules may only participate in single stage (either first or second round).\n3. Some modules may participate in both the stages.",
+      "line": 434
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Every module undergoes fwk_module_bind_modules() function 2 times.\nAt module level it is decided how the binding process should be.\nThis for loop just determines the bind_round",
+      "line": 436
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now for every module fwk_module_bind_module() is called.",
+      "line": 342
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now bind function is called for every module if binding is used.",
+      "line": 321
+    },
+    {
+      "file": "module/scmi/src/mod_scmi.c",
+      "description": "Here you can see there are two callbacks related to binding.\n1. .bind\n2. .process_bind_request\n\nm31",
+      "line": 1349
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Module to element wise binding happens in this function.",
+      "line": 331
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Now after binding the modules, we do the final pre-runtime stage.",
+      "line": 443
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "For every module we call fwk_module_start_module().",
+      "line": 403
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "Similiar to all stages for every module start is called. For SCMI it is scmi_start(), transport module it is transport_start() etc.",
+      "line": 384
+    },
+    {
+      "file": "framework/src/fwk_module.c",
+      "description": "In this function we simply set the state of the elements as started.",
+      "line": 393
+    },
+    {
+      "file": "framework/src/fwk_arch.c",
+      "description": "Now we arrive at the forever running loop.",
+      "line": 102
+    },
+    {
+      "file": "framework/src/fwk_core.c",
+      "description": "Now after starting, SCP firmware will process the event queue.\nIf there is any, will process the next event.\nIf there is no event, will check whether any event in the ISR queue.\nIf yes processing takes place.\nElse suspend the process and wait for event or interrupt.",
+      "line": 325
+    }
+  ],
+  "isPrimary": true
+}
